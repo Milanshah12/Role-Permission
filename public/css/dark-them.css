@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: white;
+}
+#theme{
+    color:black
+}
+.tab-content {
+    color: white;
+}
+.card1, .card-header, .card-body {
+    color: white !important; /* Added !important to enforce the style */
+}
+
+/* Set text color to white for all table headers and rows */
+.table th,
+.table td {
+    color: white !important; /* Ensure white text */
+}
+
+/* Remove striped row backgrounds */
+.table.table-striped tbody tr:nth-of-type(odd) {
+    background-color: transparent !important; /* No background for odd rows */
+}
+
+/* Set uniform background color for all rows */
+.table tbody tr {
+    background-color: black !important; /* Dark background for all rows */
+}
+.table tbody tr td {
+    background-color: black !important; /* Dark background for all rows */
+}
+.table thead tr th {
+    background-color: black !important; /* Dark background for all rows */
+}
+.btn{
+    color: white !important;
+    background-color: black !important;
+}
+.con {
+    background-color: black !important;
+}
+h1 {
+    color: #d7dde7;
+}
+.tit{
+    color: black;
+}
+.block{
+    color:white;
+}
+.border{
+    color:black;
+}
+.card{
+    color: aliceblue;
+    background-color: black;
+}
